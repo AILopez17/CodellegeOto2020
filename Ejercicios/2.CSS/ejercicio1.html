@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Estructura</title>
+        <style>
+		
+		
+            #border{
+                border-style: solid;
+				
+                border-width: 1px;
+                border-radius: 5px;
+
+                margin: 20px;
+                margin-left: 50px;
+                margin-right: 50px;
+				
+				background-color:lightgreen
+			
+            }
+
+            .varchars{
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 5px;
+                margin-right: 400px;
+                margin-left: 400px;
+                text-align: center;
+                background-color: greenyellow;
+            }
+			
+			
+
+            .cabecera{
+               padding-left: 400px;
+            }
+			
+			
+
+            .inputFields{
+                margin-left: 50px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+			
+			
+        </style>
+    </head>
+	
+	
+	
+    <body>
+        <div id="border">
+            <form>
+                <!--Step 1-->
+                <h2 class="cabecera">Step 1: Your details</h2>
+                <div class="varchars">
+                    Name:
+                    <input class="inputFields" name="name" type="text" placeholder="Firts Name & Last Name">
+                </div>
+                <div class="varchars">
+                    Email:
+                    <input class="inputFields" name="email" type="email" placeholder="example@domain.com">
+                </div>
+                <div class="varchars">
+                    Phone:
+                    <input class="inputFields" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                    placeholder="Eg. 123-456-7890" maxlength="10">
+                </div>
+
+                <!--Step 2-->
+                <h2 class="cabecera">Step 2: Delivery address</h2>
+                <div class="varchars">
+                    Address:
+                    <input class="inputFields" name="address" type="textarea" width="50px" height="100">
+                </div>
+                <div class="varchars">
+                    Post Code:
+                    <input class="inputFields" name="postCode" type="tel" maxlength="6" placeholder="123456">
+                </div>
+                <div class="varchars">
+                    Country:
+                    <input class="inputFields" name="Country" type="text">
+                </div>
+                
+                <!--Step 3-->
+                <h2 class="cabecera">Step 3: Card details</h2>
+                <div class="varchars">
+                    Card Number:
+                    <input class="inputFields" name="cardNumber" type="tel" maxlength="16"
+                    pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1234-5678-1234-5678">
+                </div>
+                <div class="varchars">
+                    Security Code:
+                    <input class="inputFields" name="securityCode" type="tel" maxlength="3"
+                    placeholder="123">
+                </div>
+                <div class="varchars">
+                    Name on card
+                    <input class="inputFields" name="cardName" type="text" placeholder="Exact Name on the Card">
+                </div>
+            </form>
+        </div>
+		
+    </body>
+</html>
