@@ -1,0 +1,38 @@
+git status (verifica que cambios se tienen actualmente en el repositorio y en que branch se encuentran)
+
+git add --all (agrega todos los cambios para realizarse el commit)
+
+git commit -m "xxxx" (una ves agregados los cambios, crea un commit en tu equipo local)
+
+git add PrimeraClase/git.txt (marca que se va a agregar a stage solo los cambios dentro de este caso git.txt)
+
+git reset (elimina el stage de los cambios que tengas)
+
+git push (suben los commits de su equipo local o al repositorio remoto)
+
+git clone https://github.com/AILopez17/GitCloneCodellege (descarga un repositorio remoto al equipo local)
+
+git pull (baja los cambios de un repositorio)
+
+git diff (muestra los cambios agregados)
+
+git branch (revisa los branchs que se tienen en local)
+
+git branch xxxx (crea un nuevo branch en el repositorio local)
+
+git checkout xxxx (cambia a un nuevo branch local)
+
+git push --set-upstream origin branchlocal (sube un nuevo branch, en este caso llamado branchlocal, al repositoio remoto)
+
+git reset --hard HEAD (ELIMINA todos los cambios locales y posiciona al branch con la ultima informacion del commit descargado)
+
+git merge branchRemoto (realiza un merge entre el branch "branchRemoto" y el branch actual)
+
+
+
+Paginas utiles
+https://rogerdudler.github.io/git-guide/index.es.html
+ 
+https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
+
+https://git-scm.com/book/es/v1/Empezando
