@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de presentación</title>
+    <style>
+	
+	
+		/* --- Tarjetas --- */
+		.card{
+			width: 35rem;
+			height: 20rem;
+			background: url('textura.jpg');
+
+			border-radius: 1.5rem;
+			box-shadow: 1.25rem 0.75rem 0.5rem 0.1rem dimgray;
+			background-size: 100% 100%;
+
+			position: relative;
+			margin-bottom: 1rem;
+		}
+		
+		
+		/* --- Lineas --- */
+        .line{
+            background: orange;
+            position: absolute;
+        }
+		
+        .horizontal{
+            width: 8rem;
+            height: 0.7rem;
+            left: calc(50% - 8rem/2);
+        }
+		
+		.top{
+            top:0;
+        }
+		
+		.bottom{
+            bottom: 0;
+        }
+		
+        .vertical{
+            height: 8rem;
+            width: 0.7rem;
+            bottom: calc(50% - 8rem/2);
+        }
+		
+        .left{
+            left: 0;
+        }
+		
+        .right{
+            right: 0;
+        }
+		
+		/* --- General --- */
+		body, html{
+            color: white;
+            font-family: sans-serif;
+        }
+		
+		a {
+            color:white;
+            text-decoration: none;
+        }
+		
+        svg{
+            fill: orange;
+        }
+		
+        
+		/* --- Logo y titulo --- */
+		.divNombre{
+            position: absolute;
+            bottom: calc(50% - 5rem); 
+            left:2.5rem;
+            margin: auto;
+            padding: 0;
+        }
+		
+		.logo{
+            display: block;
+            margin: auto;
+        }
+		
+        .nombre{
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: normal;
+            margin-top: -1rem;
+        }
+		
+        .position{
+            margin: 0;
+            text-align: end;
+        }
+		
+		/* --- Datos --- */
+        .divDatos{
+            position: absolute;
+            bottom: calc(50% - 4.2rem); 
+            right:1.8rem;
+            font-size:small;
+            display: inline-flexbox;
+        }
+		
+		.divDatos p{
+            bottom: 0;
+        }
+		
+		.divDatos svg{
+            margin-right: 0.1rem;
+            align-content: -3rem;
+            display: inline-block;
+        }
+		
+		.middle{
+            display: inline-flexbox;
+            vertical-align: middle;
+
+        }
+ 
+		/* --- Logo Segunda Tarjeta --- */
+		.mainlogo{
+            width: 15rem;
+            height: 15rem;
+            align: items center;
+            padding-left: calc(50% - 7.6rem);
+            padding-top: 2.5rem;
+            vertical-align: middle;
+            padding-left: calc(50% -5rem);
+        }
+	 
+    </style>
+</head>
+<body>
+
+	<!-- Tarjeta1 -->
+    <section class="card">
+       
+		<!-- Lineas de arriba y abajo -->
+        <div class="line horizontal top"></div>
+        <div class="line horizontal bottom"></div>	   
+		
+			<!-- Logo y Titulo -->
+        <div class="divNombre">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10rem" height="10rem" viewBox="0 0 172 172"
+				style=" fill:#000000;"><defs><linearGradient x1="48.375" y1="49.49569" x2="48.375" y2="66.74406" gradientUnits="userSpaceOnUse" id="color-1_43629_gr1"><stop offset="0" stop-color="#ffe2cb"></stop><stop offset="1" stop-color="#ff9c70"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-2_43629_gr2"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-3_43629_gr3"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-4_43629_gr4"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-5_43629_gr5"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-6_43629_gr6"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M40.3125,67.1875v-13.4375c0,-1.4835 1.204,-2.6875 2.6875,-2.6875h13.4375z" fill="url(#color-1_43629_gr1)"></path><path d="M158.5625,120.9375h-5.375v-77.9375c0,-7.40944 -6.02806,-13.4375 -13.4375,-13.4375h-107.5c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375v77.9375h-5.375c-2.96431,0 -5.375,2.41069 -5.375,5.375v2.6875c0,7.40944 6.02806,13.4375 13.4375,13.4375h129c7.40944,0 13.4375,-6.02806 13.4375,-13.4375v-2.6875c0,-2.96431 -2.41069,-5.375 -5.375,-5.375zM24.1875,43c0,-4.44512 3.61737,-8.0625 8.0625,-8.0625h107.5c4.44512,0 8.0625,3.61738 8.0625,8.0625v77.9375h-41.33912c-2.05594,0 -3.89688,1.14219 -4.80525,2.96969l-1.204,2.40531l-28.93094,-0.00538l-1.19594,-2.39188c-0.91375,-1.83556 -2.75737,-2.97775 -4.81062,-2.97775h-41.33913zM158.5625,129c0,4.44512 -3.61738,8.0625 -8.0625,8.0625h-129c-4.44513,0 -8.0625,-3.61738 -8.0625,-8.0625v-2.6875l52.09181,0.00538l1.19594,2.39188c0.91375,1.83825 2.75469,2.97775 4.81062,2.97775h28.92825c2.05594,0 3.89688,-1.14219 4.80525,-2.96969l1.204,-2.40531h52.08913z" fill="url(#color-2_43629_gr2)"></path><path d="M142.4375,48.375c0,-4.44512 -3.61738,-8.0625 -8.0625,-8.0625h-96.75c-4.44512,0 -8.0625,3.61738 -8.0625,8.0625v67.1875h112.875zM137.0625,110.1875h-102.125v-61.8125c0,-1.4835 1.204,-2.6875 2.6875,-2.6875h96.75c1.4835,0 2.6875,1.204 2.6875,2.6875z" fill="url(#color-3_43629_gr3)"></path><path d="M102.125,59.125h-32.25c-2.96431,0 -5.375,2.41069 -5.375,5.375v26.875c0,2.96431 2.41069,5.375 5.375,5.375h32.25c2.96431,0 5.375,-2.41069 5.375,-5.375v-26.875c0,-2.96431 -2.41069,-5.375 -5.375,-5.375zM102.125,91.375h-32.25v-26.875h32.25z" fill="url(#color-4_43629_gr4)"></path><path d="M75.25,69.875h21.5v5.375h-21.5z" fill="url(#color-5_43629_gr5)"></path><path d="M75.25,80.625h21.5v5.375h-21.5z" fill="url(#color-6_43629_gr6)"></path></g></g>
+			</svg>
+            <h2 class="nombre">Juan García</h2>
+            <h4 class="position">Software Developer</h4>
+        </div>
+		
+		 <!-- Datos Personales -->
+        <div class="divDatos">
+            <div class="middle">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+					width="24" height="24" viewBox="0 0 24 24"><path d="M20,20H4c-1.105,0-2-0.895-2-2V6.813L12,13l10-6.188V18C22,19.105,21.105,20,20,20z" opacity=".3"></path><path d="M2 10.092V18c0 1.105.895 2 2 2h16c1.105 0 2-.895 2-2v-7.87l-2 1.245V18H4v-6.654L2 10.092zM4 8.986V6h16v3.02l2-1.245V6c0-1.105-.895-2-2-2H4C2.895 4 2 4.895 2 6v1.732L4 8.986z"></path><path d="M12 11.749L3 6.108 3 8.359 12 14 21 8.397 21 6.146z"></path>
+				</svg>
+                <span>asdadad@gmail.com</span>
+            </div>
+            <p>
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+					width="24" height="24" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#e67e22"><path d="M86,78.83333c-15.76667,0 -28.66667,-12.9 -28.66667,-28.66667c0,-15.76667 12.9,-28.66667 28.66667,-28.66667c15.76667,0 28.66667,12.9 28.66667,28.66667c0,15.76667 -12.9,28.66667 -28.66667,28.66667zM86,35.83333c-7.88333,0 -14.33333,6.45 -14.33333,14.33333c0,7.88333 6.45,14.33333 14.33333,14.33333c7.88333,0 14.33333,-6.45 14.33333,-14.33333c0,-7.88333 -6.45,-14.33333 -14.33333,-14.33333z"></path><path d="M86,28.66667c-11.87412,0 -21.5,9.62588 -21.5,21.5c0,11.87412 9.62588,21.5 21.5,21.5c11.87412,0 21.5,-9.62588 21.5,-21.5c0,-11.87412 -9.62588,-21.5 -21.5,-21.5z" opacity="0.3"></path><path d="M168.41667,149.78333c-2.86667,0 -5.73333,0 -7.88333,-0.71667c-2.15,-0.71667 -5.01667,-1.43333 -6.45,-1.43333c-1.43333,-0.71667 -2.86667,0 -4.3,0.71667l-5.01667,5.01667c0,0 -8.6,-2.86667 -15.76667,-10.03333c-7.16667,-7.16667 -10.75,-15.76667 -10.75,-15.76667l5.01667,-5.01667c0.71667,-0.71667 1.43333,-2.86667 0.71667,-4.3c-0.71667,-2.15 -1.43333,-4.3 -1.43333,-6.45c0,-2.15 -0.71667,-5.01667 -0.71667,-7.88333c0,-2.15 -2.15,-3.58333 -4.3,-3.58333h-13.61667c-1.43333,0 -4.3,1.43333 -4.3,4.3c0,17.91667 7.16667,35.11667 20.06667,48.01667c12.9,12.18333 30.1,20.06667 48.01667,20.06667c2.86667,0 4.3,-2.15 4.3,-4.3v-14.33333c0,-2.15 -1.43333,-4.3 -3.58333,-4.3zM92.45,136.16667h-56.61667v-3.58333c0,-6.45 26.51667,-17.91667 50.16667,-17.91667h0.71667c-0.71667,-3.58333 -0.71667,-7.16667 -0.71667,-10.03333c0,-1.43333 0,-2.86667 0.71667,-4.3c0,0 0,0 -0.71667,0c-22.21667,0 -64.5,10.75 -64.5,32.25v17.91667h78.83333c-2.86667,-4.3 -5.73333,-9.31667 -7.88333,-14.33333z"></path><path d="M86,107.5v0c-22.93333,0 -57.33333,11.46667 -57.33333,25.08333v10.75h67.36667c-5.73333,-10.75 -9.31667,-23.65 -10.03333,-35.83333z" opacity="0.3"></path></g></g>
+				</svg>
+				+52 234234234234
+			</p>
+            <p>
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+					width="24" height="24" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e67e22"><path d="M136.16667,78.83333v64.5h-35.83333v-43h-28.66667v43h-35.83333v-64.5h-10.03333l60.2,-54.46667l60.2,54.46667z" opacity="0.3"></path><path d="M143.33333,150.5h-50.16667v-43h-14.33333v43h-50.16667v-64.5h-21.5l78.83333,-70.95l78.83333,70.95h-21.5zM107.5,136.16667h21.5v-63.06667l-43,-38.7l-43,38.7v63.06667h21.5v-43h43z"></path></g></g>
+				</svg>
+				asdasd 1013. asdasd.
+			</p>
+            <a href="https://github.com/asdasd">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+					width="24" height="24" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#e67e22"><path d="M28.66667,28.66667h114.66667v43h-114.66667z" opacity="0.3"></path><path d="M57.33333,71.66667h14.33333v71.66667h-14.33333zM86,107.5h35.83333v14.33333h-35.83333zM86,86h35.83333v14.33333h-35.83333z"></path><path d="M136.16667,150.5h-100.33333c-7.88333,0 -14.33333,-6.45 -14.33333,-14.33333v-100.33333c0,-7.88333 6.45,-14.33333 14.33333,-14.33333h100.33333c7.88333,0 14.33333,6.45 14.33333,14.33333v100.33333c0,7.88333 -6.45,14.33333 -14.33333,14.33333zM35.83333,35.83333v100.33333h100.33333v-100.33333z"></path><path d="M28.66667,64.5h114.66667v14.33333h-114.66667zM50.16667,43c-3.95804,0 -7.16667,3.20863 -7.16667,7.16667c0,3.95804 3.20863,7.16667 7.16667,7.16667c3.95804,0 7.16667,-3.20863 7.16667,-7.16667c0,-3.95804 -3.20863,-7.16667 -7.16667,-7.16667zM71.66667,43c-3.95804,0 -7.16667,3.20863 -7.16667,7.16667c0,3.95804 3.20863,7.16667 7.16667,7.16667c3.95804,0 7.16667,-3.20863 7.16667,-7.16667c0,-3.95804 -3.20863,-7.16667 -7.16667,-7.16667zM93.16667,43h28.66667v14.33333h-28.66667z"></path></g></g>
+				</svg>
+				github.com/xxxxxx
+			</a>
+        </div>
+	
+
+    </section>
+	
+	<!-- Tarjeta2 -->
+    <section class="card">
+		
+		<!-- Lineas de izquierda y derecha -->
+        <div class="line vertical left"></div>
+        <div class="line vertical right"></div>
+	
+        <svg class="mainlogo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10rem" height="10rem" viewBox="0 0 172 172" 
+			style=" fill:#000000;"><defs><linearGradient x1="48.375" y1="49.49569" x2="48.375" y2="66.74406" gradientUnits="userSpaceOnUse" id="color-1_43629_gr1"><stop offset="0" stop-color="#ffe2cb"></stop><stop offset="1" stop-color="#ff9c70"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-2_43629_gr2"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-3_43629_gr3"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-4_43629_gr4"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-5_43629_gr5"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient><linearGradient x1="86" y1="27.32381" x2="86" y2="144.76219" gradientUnits="userSpaceOnUse" id="color-6_43629_gr6"><stop offset="0" stop-color="#ffa45b"></stop><stop offset="1" stop-color="#ff4f00"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M40.3125,67.1875v-13.4375c0,-1.4835 1.204,-2.6875 2.6875,-2.6875h13.4375z" fill="url(#color-1_43629_gr1)"></path><path d="M158.5625,120.9375h-5.375v-77.9375c0,-7.40944 -6.02806,-13.4375 -13.4375,-13.4375h-107.5c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375v77.9375h-5.375c-2.96431,0 -5.375,2.41069 -5.375,5.375v2.6875c0,7.40944 6.02806,13.4375 13.4375,13.4375h129c7.40944,0 13.4375,-6.02806 13.4375,-13.4375v-2.6875c0,-2.96431 -2.41069,-5.375 -5.375,-5.375zM24.1875,43c0,-4.44512 3.61737,-8.0625 8.0625,-8.0625h107.5c4.44512,0 8.0625,3.61738 8.0625,8.0625v77.9375h-41.33912c-2.05594,0 -3.89688,1.14219 -4.80525,2.96969l-1.204,2.40531l-28.93094,-0.00538l-1.19594,-2.39188c-0.91375,-1.83556 -2.75737,-2.97775 -4.81062,-2.97775h-41.33913zM158.5625,129c0,4.44512 -3.61738,8.0625 -8.0625,8.0625h-129c-4.44513,0 -8.0625,-3.61738 -8.0625,-8.0625v-2.6875l52.09181,0.00538l1.19594,2.39188c0.91375,1.83825 2.75469,2.97775 4.81062,2.97775h28.92825c2.05594,0 3.89688,-1.14219 4.80525,-2.96969l1.204,-2.40531h52.08913z" fill="url(#color-2_43629_gr2)"></path><path d="M142.4375,48.375c0,-4.44512 -3.61738,-8.0625 -8.0625,-8.0625h-96.75c-4.44512,0 -8.0625,3.61738 -8.0625,8.0625v67.1875h112.875zM137.0625,110.1875h-102.125v-61.8125c0,-1.4835 1.204,-2.6875 2.6875,-2.6875h96.75c1.4835,0 2.6875,1.204 2.6875,2.6875z" fill="url(#color-3_43629_gr3)"></path><path d="M102.125,59.125h-32.25c-2.96431,0 -5.375,2.41069 -5.375,5.375v26.875c0,2.96431 2.41069,5.375 5.375,5.375h32.25c2.96431,0 5.375,-2.41069 5.375,-5.375v-26.875c0,-2.96431 -2.41069,-5.375 -5.375,-5.375zM102.125,91.375h-32.25v-26.875h32.25z" fill="url(#color-4_43629_gr4)"></path><path d="M75.25,69.875h21.5v5.375h-21.5z" fill="url(#color-5_43629_gr5)"></path><path d="M75.25,80.625h21.5v5.375h-21.5z" fill="url(#color-6_43629_gr6)"></path></g></g>
+		</svg>
+        </div>
+        
+		
+    </section>
+	
+</body>
+</html>
