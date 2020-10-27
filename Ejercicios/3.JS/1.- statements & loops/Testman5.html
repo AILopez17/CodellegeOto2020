@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS nested for loop example</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<script>
+	var chr;
+	
+	for(var i=1; i <=6; i++){
+	
+		for (var j=1; j < i; j++){
+		
+			chr=chr+("*"); 
+			
+		}
+			
+		console.log(chr);
+		chr='';    
+	}
+	
+	/*
+		i = 1; 1 < 6? SI; 1 + 1
+			j = 1; 1 < 1 NO; TERMINAR EL LOOP DE J
+		imprime chr = UNDEFINED
+		
+		i = 2; 2 < 6? SI; 2 + 1
+			j = 1; 1 < 2 SI; 1(j) + 1
+			j = 2; 2 < 2 NO; TERMINA EL LOOP DE J
+		imprime chr = *
+		
+		i = 3; 3 < 6? SI; 3 + 1
+			j = 1; 1 < 3 SI; 1(j) + 1
+			j = 2; 2 < 3 SI; 2(j) + 1
+			j = 3; 3 < 3 NO; TERMINA EL LOOP DE J
+		imprime chr = **
+		
+		i = 3; 3 < 6? SI; 3 + 1
+			j = 1; 1 < 3 SI; 1(j) + 1
+			j = 2; 2 < 3 SI; 2(j) + 1
+			j = 3; 3 < 3 NO; TERMINA EL LOOP DE J
+		imprime chr = **
+		
+		ETC
+	*/
+	
+	
+</script>
