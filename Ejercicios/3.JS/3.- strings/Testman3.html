@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Convert a string in abbreviated form</title>
+</head>
+<body>
+</body>
+</html>
+
+<script>
+	var abbName = function(str1){
+		var splitNames = str1.trim().split(" ");
+		console.log(splitNames);
+		
+		if(splitNames.length > 1){
+			return (splitNames[0].charAt(0) + "." + " " + splitNames[1]);
+		}
+		
+		return splitName[0];
+	}
+	
+	console.log(abbName("Alejandro Lopez"));
+</script>

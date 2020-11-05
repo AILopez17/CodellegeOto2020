@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hide email addresses to protect from unauthorised user</title>
+</head>
+<body>
+</body>
+</html>
+
+
+<script>
+var protectEmail = function (user_email) {
+	var avg, splitted, part1, part2;
+
+	splitted = user_email.split("@");
+	console.log(splitted);
+	
+	part1 = splitted[0];
+	avg = part1.length / 2;
+	console.log(avg);
+	
+	part1 = part1.substring(0, (part1.length - avg)); 17 - 8.5
+	console.log(part1);
+	
+	part2 = splitted[1];
+	console.log(part2);
+	
+	return part1 + "...@" + part2;
+};
+
+console.log(protectEmail("codellegeAlex@example.com"));
+   
+</script>

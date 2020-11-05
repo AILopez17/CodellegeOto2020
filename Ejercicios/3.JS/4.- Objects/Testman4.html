@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Reading status of a book library</title>
+</head>
+<body>
+</body>
+</html>
+
+
+<script>
+var library = [ 
+    {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true
+    },
+    {
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        author: 'Suzanne Collins',
+        readingStatus: false
+    }];
+
+	//array con 3 valores
+	// cada valor es un objeto con 3 propiedades
+	
+	
+for (var i = 0; i < library.length; i++) {
+		
+	var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
+	
+	if (library[i].readingStatus) {
+		console.log("Already read " + book);
+		
+	} else{
+		console.log("You still need to read " + book);
+		
+	}
+}
+   
+</script>
