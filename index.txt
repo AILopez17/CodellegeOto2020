@@ -12,6 +12,7 @@
 
 		<h1> Esto es el titulo de nuestro proyecto</h1> //adal
 		<h1> esto es mas texto laralalalal</h1>
+		<h1> esto es mas texto laralalalal</h1>
 
 		<p>esto es como se va a a ver un parrafo</p> // cambios de alex
 		<p>esto es como se va a a ver un parrafo</p>
