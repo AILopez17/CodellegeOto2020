@@ -11,7 +11,7 @@
 	
 		<h1> HOLA MUNDO</h1>
 		
-		<p>Esto es el inicio del proyecto</p>
+		<p>Mi proyecto</p>
 	
 	</body>
 
