@@ -1,0 +1,19 @@
+<hmtl>
+	<head>
+	
+	
+	
+	</head>
+	
+	
+	
+	<body>
+	
+		<h1> HOLA MUNDO</h1>
+		
+		<p>Esto es el inicio del proyecto</p>
+	
+	</body>
+
+
+</html>
