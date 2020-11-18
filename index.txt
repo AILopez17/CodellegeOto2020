@@ -12,7 +12,8 @@
 		<h1> HOLA MUNDO</h1>
 		
 
-		<p>Mi escuela de codellege</p>	
+		<p>esto es como se va a a ver un parrafo</p> // cambios de alex
+		<p>esto es como se va a a ver un parrafo</p>
 	
 	</body>
 
