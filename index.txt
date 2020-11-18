@@ -11,7 +11,8 @@
 	
 		<h1> HOLA MUNDO</h1>
 		
-		<p>Mi escuela de codellege</p>
+
+		<p>Mi escuela de codellege</p>	
 	
 	</body>
 
