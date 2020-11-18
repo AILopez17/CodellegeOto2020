@@ -15,6 +15,7 @@
 
 		<p>esto es como se va a a ver un parrafo</p> // cambios de alex
 		<p>esto es como se va a a ver un parrafo</p>
+		<p>esto es como se va a a ver un parrafo</p>
 	
 	</body>
 
