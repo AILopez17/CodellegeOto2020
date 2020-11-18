@@ -9,7 +9,7 @@
 	
 	<body>
 	
-		<h1> HOLA MUNDO</h1>
+		<h1> Esto es el titulo de nuestro proyecto</h1> //adal
 		
 
 		<p>Mi escuela de codellege</p>	
